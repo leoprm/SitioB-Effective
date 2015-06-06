@@ -1,0 +1,34 @@
+body{
+			background-image: url(https://farm8.staticflickr.com/7632/16230498573_0464239f98_h.jpg);
+			size:100%;
+	}
+
+.container {
+  width: auto;
+  height: auto;
+  background-image: black;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.container div {
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  position: absolute;
+}
+
+.next {
+  right: 5px;
+}
+
+.prev {
+  left: 5px;
+}
